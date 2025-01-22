@@ -1,0 +1,5 @@
+Category,Score,Key Metrics,Issues Detected,Recommendations,Passed Audits,Additional Notes
+Performance,61,"FCP: 2.3s, LCP: 2.9s, TBT: 3,700ms, CLS: 0.018, SI: 3.8s","Minimize main-thread work, Reduce unused CSS/JS, Avoid large layout shifts","Optimize images, Reduce JavaScript execution time, Avoid long tasks",23 audits passed,Diagnostics suggest reducing DOM size and third-party usage
+Accessibility,86,"Tabindex issues, Buttons lack accessible names","Buttons lack accessible names, Some elements have [tabindex] > 0","Improve keyboard navigation, Add accessible labels to buttons",22 audits passed,Manual testing is encouraged for complete accessibility validation
+Best Practices,93,"Browser errors logged, CSP effective against XSS","Touch targets insufficient size, Issues logged in DevTools","Ensure proper touch target size, Fix DevTools issues",13 audits passed,Ensure CSP is configured correctly
+SEO,100,"Valid structured data, Additional manual checks required",None,Follow additional SEO validators,8 audits passed,Basic SEO guidelines followed
